@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+
+    <title>Login</title>
+
+    <style>
+        table{
+            width: 35%;
+            height: 32%;
+        }
+
+        h2{
+            margin-left: 47%;
+            margin-top: 12%;
+        }
+        
+    </style>
+
+            
+        </body>
+        
+<script type = "text/javascript">
+    var uname=document.myform.name.value;  
+var passw=document.myform.pass.value; 
+       
+       function validate() {
+       
+        if (uname==null || uname==""){  
+  alert("Name can't be blank");  
+    
+}else if(passw.length<6){  
+  alert("Password must be at least 6 characters long.");  
+    
+  }  
+}
+  
+ </script>
+        <h2>Login Form</h2>
+        
+        <form name="myform" method="post" action="" onsubmit="return validate()">
+            
+            <table align="center" style="background-color:cyan;">
+        
+                <tr>
+                    <td><b>Enter Username</b></td>
+                    <td><input type="text" name="name"></td>
+                </tr>
+        
+                <tr>
+                    <td><b>Enter Password</b></td>
+                    <td><input type="password" name="pass"></td>
+                </tr>
+        
+                <tr>
+                    <td align="center"><input type="submit" value="Submit"></td>
+                    <td><input type="submit" value="Clear"></td>
+                </tr>
+            </table>
+        
+        </form>
+        
+        
+        
+        
+        </html>
+
+            
+            
+
+
+
+
+
+
+
+
+

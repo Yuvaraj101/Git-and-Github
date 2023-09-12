@@ -1,0 +1,20 @@
+.line {
+    border-bottom: 1px  solid rgb(163, 207, 223);
+
+  }
+
+#bod
+  {
+    
+    margin: 0 15%;
+  }
+
+  h3
+  {
+    color : rgb(209,104, 88);
+  }
+
+  p{
+    font-family: sans-serif;
+    font-weight: bold;
+  }
