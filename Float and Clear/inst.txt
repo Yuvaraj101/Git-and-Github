@@ -1,0 +1,5 @@
+float and postion(not so important rarely used)
+
+it can be used when image next to it some text is needed.
+
+clear: (neglects the floating property)
