@@ -1,0 +1,50 @@
+CSS - casacading style sheet
+
+to make website pleasant,attractrive,vibrant looking
+
+3 types :
+
+inline-style is a atteibute - "color:yellow" property:value ---not widely used
+
+internal- style is a tag --not widely used
+
+external -- widely used ---
+
+link rel :: link relationship
+rel is attribute to define the type of file
+
+Selectors::
+
+element selector : applicable to all tags
+class selector: widely used (accessed using dot . and class keyword)
+id selector : accessed using # and id keyword
+universal selector: * (applies the style property to all the element in the html document)
+
+class name can be same for many elements but id should be only one element per html page
+
+
+CSS box model::
+
+useful for perfect designing
+all elements is made of box shape (padding,border,margin)
+
+margin -- moves the whole box
+padding -- space inside the box
+border--needs three property (color,widht,style)
+
+div -division(acts like a container)
+
+
+!!!!!Display property (more important than box model)
+
+used for designing the layout
+
+when display:block -- takes the complete width
+displau:inline -- takes only upto the content length  (when inline cant set height and width)
+inline-block -- can set height and width
+
+block
+inline inline inline 
+block
+inline inline 
+block
