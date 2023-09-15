@@ -1,0 +1,18 @@
+format for html- html5
+
+doctype html- dentotes the html version
+
+order of tags:
+html
+head - title related
+body - main contents
+body attributes - bgcolor
+
+meta tag- search engine optimizetion,includes website information ,author details etc..
+
+we can add emoji by copy pasting
+
+www.emojipedia.org // for emojis
+www.flaticon.com //for titlebar icons
+
+<link rel="icon" href="calendar.png"> // to bring the icon on the titlebar tab

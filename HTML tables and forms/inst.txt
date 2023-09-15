@@ -1,0 +1,17 @@
+table for table
+tr-table row
+td - table column
+
+we create a row first then create columns
+
+forms//
+
+input type :
+submit- when it is used a button is created when clicked the page is refreshed
+
+to bring out proper alignment on the forms we use tables with forms
+reset - removes the contents in the form
+
+dropdown menu:
+	select 
+	option
