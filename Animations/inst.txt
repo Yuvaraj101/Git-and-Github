@@ -1,0 +1,24 @@
+anaimatiions - -- change of state in a timely manner
+
+transition property-- to change the state
+
+transition-delay--delay duration
+transition-duration--time taken
+
+transition timing fucntion (!!)
+
+lineaar: start and end same speed
+ease: smooth start to fast to smooth end
+ease in : slow start to fast
+ease out: quicl start to slow
+
+@keyframe animations -- to set specfic percentage of timing for the transition 0% to 100%
+
+animation-name -- can give any name
+--to make the animation work we need to mention animation duration---- 
+
+        animation-iteration-count: infinite;  // or any values
+        animation-delay: 2s;//after the page load the animation starting in 2s
+	animation-fill mode: forward// to stop the animation from resetting
+
+--animations work only with keyframes--(note!!)
