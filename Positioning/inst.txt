@@ -1,0 +1,16 @@
+positioning (rarely used)
+
+static : cant change left ,top,bottom,right
+relative: wont affect other elemetns  and can change left ,top,bottom,right
+absolute: just like a student day dreaming in class (it comes out of the layout)
+
+(when child is absotue and parent is relative)when the parent is 
+relative child is relative to its parent(changes its position from its parents position)
+
+(by default the elements parent is the window screen)
+
+fixed: acts like a watermark
+
+sticky: when top is 0 and it it touches the end of the webpage it becomes fixed
+
+	--mostly used in nav bar is sticky--
