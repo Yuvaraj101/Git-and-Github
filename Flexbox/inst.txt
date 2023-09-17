@@ -1,0 +1,20 @@
+flexbox--flexible container
+it is a display proprty
+
+contents inside container becomes --flex items
+
+default flex direction is-- row
+
+justify content --to bring the flex items in the flexbox to center,start,end
+
+!!flex shoud be used only for containers
+
+flex-wrap: to make the flex items fit into the flexbox and not exceed the box 
+by delfault it is nowrap
+
+-------------------------------------------
+to bring elemens to center:
+
+align items : center //it is used when dealing with column items
+justify content:center //it is used when dealing with row items
+text align:center
