@@ -17,3 +17,18 @@
     border: 1px solid black;
 }
 
+i{
+    font-size: 30px;
+    color: white;
+}
+
+.box > i{
+    position: relative;
+    bottom: 20px;
+    right: 50px;
+}
+
+i:hover{
+    cursor: pointer;
+    color: red;
+}
