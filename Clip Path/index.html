@@ -12,7 +12,26 @@
 </head>
 <body>
 
-    <i class="fa-solid fa-heart"></i>
+    <i class="fa-solid fa-heart" id="gg"></i>
+
+    <script>
+        var gg = document.getElementById("gg")
+        var count=0
+        gg.addEventListener("click",function()
+        {
+            gg.style.color="red"
+            count = count+1
+            if(count==2)
+            {
+                gg.style.color="rgb(115, 117, 117)"
+                count=0
+
+            }
+            console.log(count);
+  
+        })
+
+    </script>
  
 </body>
 </html>
