@@ -4,11 +4,14 @@
 }
 
 i{
-    height: 100px;
-    width: 100px;
+    font-size: 100px;
+    color: rgb(115, 117, 117);
+    
     
 }
 
 i:hover{
     cursor: pointer;
+    color: red;
 }
+
