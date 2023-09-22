@@ -38,6 +38,7 @@ i:hover{
 
 img{
     border-radius: 40px;
+    transition: 1s;
 }
 
 img:hover{
