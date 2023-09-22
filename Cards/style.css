@@ -42,5 +42,5 @@ img{
 }
 
 img:hover{
-    transform: rotate3d(0, 1, 0.5, 3.142rad);
+    transform: scale(0.3)
 }
