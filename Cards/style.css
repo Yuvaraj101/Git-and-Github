@@ -35,3 +35,11 @@ i:hover{
     transform: scale(0.8);
     color: red;
 }
+
+img{
+    border-radius: 40px;
+}
+
+img:hover{
+    transform: rotate3d(0, 1, 0.5, 3.142rad);
+}
