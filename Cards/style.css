@@ -58,8 +58,14 @@ img:hover{
 h2{
     margin-left: 20px;
     padding: 20px;
+    
 }
 
 h1{
     padding: 20px;
+}
+
+h2:hover{
+    color: white;
+    cursor: pointer;
 }
