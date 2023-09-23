@@ -51,6 +51,8 @@ img:hover{
     color: yellow;
     display: flex;
     justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 h2{
