@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 *{
+    box-sizing: border-box;
     margin: 0%;
     padding: 0%;
 }
@@ -10,7 +11,34 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: black;
-    color: yellow;
+    padding: 20px;
+    align-items: center;
+
     
+}
+
+li,h1,button{
+    font-size: 16px;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+    transition: all 0.3s ease 0s;
+}
+
+nav li:hover{
+    color: red;
+}
+
+button{
+    background-color: yellow;
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    color: black;
 }
 
