@@ -9,12 +9,16 @@
 header{
     font-family: 'Montserrat', sans-serif;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     background-color: black;
     padding: 20px;
     align-items: center;
 
     
+}
+
+h1{
+    margin-right: auto;
 }
 
 li,h1,button{
