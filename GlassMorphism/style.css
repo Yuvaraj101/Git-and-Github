@@ -36,7 +36,9 @@ a{
 }
 
 .shape {
-    position: absolute;
+    position: relative;
     width: 150px;
+    left: 80px;
+    bottom: 100px;
  
   }
