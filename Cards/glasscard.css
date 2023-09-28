@@ -1,0 +1,17 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(90deg,#eeaeca 0%,#94bbe9 60%);
+}
+
+.navbar{
+    display: flex;
+}
+
+nav li{
+    display: inline-block;
+}
